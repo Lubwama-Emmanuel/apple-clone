@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav {
+  /* position: fixed; */
+  min-width: 100%;
+  background-color: #444;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 1rem;
+}
+.nav__lists {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  opacity: 0.8;
+}
+.nav__list {
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.nav__list:last-child {
+  margin-right: 3rem;
+}
+.search {
+  margin-right: 3rem;
+}
+.shop__container {
+  text-align: center;
+  /* padding: 1rem 2rem; */
+  line-height: 2.5rem;
+  background-color: #f0ebeb;
+}
+.links {
+  text-decoration: none;
+  font-size: 1rem;
+  color: blue;
+  font-weight: 600;
+}
+.section__iphone-13-pro {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 4rem;
+  min-height: 80vh;
+}
+h2 {
+  font-size: 3.7rem;
+  font-weight: 500;
+}
+h3 {
+  font-size: 2rem;
+}
+.section__iphone-13-pro img {
+  width: 650px;
+}
+.section__iphone-13 {
+  text-align: center;
+  background-color: #34283c;
+  padding: 2rem 0;
+  min-height: 90vh;
+  position: relative;
+  margin-bottom: 20px;
+}
+.section__iphone-13 h3 {
+  color: wheat;
+}
+.section__iphone-13 h2 {
+  color: white;
+}
+.section__iphone-13 img {
+  width: 900px;
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%);
+}
+.section__series7 {
+  text-align: center;
+  width: 100%;
+  /* min-height: 70vh; */
+  height: 100vh;
+  /* position: relative; */
+  background-color: whitesmoke;
+}
+.img3 {
+  width: 100%;
+}
+.Span__new {
+  color: orange;
+}
+.span__series {
+  color: red;
+  font-weight: 600;
+}
+.section__series7 {
+  font-size: 1.8rem;
+}
+.links-more {
+  margin-right: 10px;
+}
+.section__more{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.container{
+    /* width: 800px; */
+    width: 100%;
+    height: 700px;
+    position: relative;
+    text-align: center;
+}
+.fitness__container{
+    background-color: #EEECED;
+}
+.fitness__img{
+   width: 600px;
+   height: 700px;
+}
+.fitness__content{
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+.macbook__img{
+    width: 100%;
+    height: 500px;
+}
+.valentine__img{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%);
+    bottom: 0;
+}
+.valentine__container{
+    background-color: #F9EDF7;
+}
+.valentine__content{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.valentine__content p{
+  font-size: 35px;
+  color: pink;
+}
+.valentine__content h2{
+  font-size: 50px;
+}
+.link__container a{
+    font-size: 20px;
+}
+.fraggle__container img{
+  width: 100%;
+  height: 100%;;
+}
+.fraggle__content{
+  position: absolute;
+  color: #f3f3f3;
+  bottom: 10px;
+  left: 40%;
+  font-weight: 600;
+
+}
+.fraggle__header{
+  margin-bottom: 100px;
+}
+.arcade__content{
+  color: #f3f3f3;
+  position: absolute;
+}
+.arcade__container img{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  transform: translate(-50%, 50%);
+}
+.arcade__container{
+  background-color: #424146;
+}
+footer{
+  background-color: whitesmoke;
+  padding: 1.5rem 15rem;
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.footer__lists p{
+  padding: 6px;
+}
+.footer__lists{
+  list-style: none;
+}
+footer span{
+ width: 100%;
+ height: 2px;
+}
+.footer__middle{
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  border-top: 2px solid #444;
+}
+.footer__middle ul{
+  list-style: none;
+} 
+.footer__middle li:hover{
+  text-decoration: underline;
+}
+.footer__middle p{
+  font-weight: bold;
+}
+.footer__third{
+  border-bottom: 1px solid #444;
+  opacity: 0.8;
+} 
+.footer__third a{
+  color: rgba(53, 50, 223, 0.849);
+  text-decoration: none;
+}
+.footer__last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  opacity: 0.8;
+}
+.footer__last a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: #444;
+}
+.footer__last__links{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+}
